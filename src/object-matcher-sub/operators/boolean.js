@@ -9,33 +9,41 @@ define(function (require, exports, module) {
 	 * @method $e
 	 */
 	exports.$e = function $e(expected, value) {
-
+		throw new Error('Unimplemented');
 	};
 
 	/**
 	 * @method $ne
 	 */
 	exports.$ne = function $ne(expected, value) {
-	//	return !$match(expected, value);
+		throw new Error('Unimplemented');
 	};
 
 	/**
 	 * @method $not
 	 */
-	exports.$not = function $not() {};
+	exports.$not = function $not() {
+		throw new Error('Unimplemented');
+	};
 
 	/**
 	 * @method $or
 	 */
-	exports.$or = function $or() {};
+	exports.$or = function $or() {
+		throw new Error('Unimplemented');
+	};
 
 	/**
 	 * @method $and
 	 */
-	exports.$and = function $and() {};
+	exports.$and = function $and() {
+		throw new Error('Unimplemented');
+	};
 
 	/**
 	 * @method $exists
 	 */
-	exports.$exists = function $exists() {};
+	exports.$exists = function $exists() {
+		throw new Error('Unimplemented');
+	};
 });
